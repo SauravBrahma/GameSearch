@@ -10,6 +10,7 @@ This script was made to slove a question below.
   
 You have pails each can have 16, 9, 7 liter.  
 Now 16L pail is filled with water. You have to divide these into 8L and 8L respectively.  
+And you know minimum number of steps are 15.  
 But you can't throw water away, and fill up again. (This is not "Die Hard: With a Vengeance"!)  The picture below is the answer.  
   
 ### Answer image
