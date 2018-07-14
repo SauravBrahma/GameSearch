@@ -8,8 +8,8 @@ This script was made to slove a question below.
 ### Question image
 ![question](https://github.com/SauravBrahma/GameSearch/blob/images/image1.png)  
   
-You have pails each can have 16, 9, 7 gallon.  
-Now 16 gallon pail is filled with water. You have to divide these into 8 gallon and 8 gallon respectively.  
+You have pails each can have 16, 9, 7 liter.  
+Now 16L pail is filled with water. You have to divide these into 8L and 8L respectively.  
 But you can't throw water away, and fill up again. (This is not "Die Hard: With a Vengeance"!)  The picture below is the answer.  
   
 ### Answer image
