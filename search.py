@@ -40,18 +40,6 @@ def operator(dictionary, i, j):
         print("[-] New Object was not appended because of its out bound capacity.")
         print("[-] %s: %d, %s: %d, %s: %d" % (i, new_i, j, new_j, third, third_var))
 
-'''have to figure out which way is more beautiful to use this algorithm...
-def iterative_deepening(depth, OPEN, CLOSE):
-    for _ in range(depth):
-        search_method("depth_first", OPEN, CLOSE)
-        
-    depth += 1
-    obj = Obj(16,0,0)
-    OPEN=[]
-    CLOSE=[]
-    OPEN.append(obj)
-    iterative_deepening(depth, OPEN, CLOSE)
-'''
 # Initialize statements.
 start = time.time()
 OPEN=[]
@@ -62,10 +50,6 @@ OPEN.append(obj)
 op_com = ['a', 'b', 'c']
 op_list = list(itertools.permutations(op_com, 2))
 min_path = 15
-depth = 1
-
-# available algorithms -> depth_first, width_first, iterative_deepening
-algorithm = "depth_first"
 
 while len(OPEN):
     give_dictionary = OPEN.pop(0)
