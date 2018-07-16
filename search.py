@@ -41,19 +41,21 @@ def operator(dictionary, i, j):
         print("[-] %s: %d, %s: %d, %s: %d" % (i, new_i, j, new_j, third, third_var))
 
 # Initialize statements.
+obj = Obj(16, 0, 0)
+goal = [8, 8, 0]
+min_path = 15
+
 start = time.time()
 OPEN=[]
 CLOSE=[]
 answer=[]
-obj = Obj(16,0,0)
 OPEN.append(obj)
 op_com = ['a', 'b', 'c']
 op_list = list(itertools.permutations(op_com, 2))
-min_path = 15
 
 while len(OPEN):
     give_dictionary = OPEN.pop(0)
-    if give_dictionary.return_list() == [8, 8, 0]:
+    if give_dictionary.return_list() == goal:
         answer.append(give_dictionary.return_list())
         while give_dictionary.parents is not None:
             answer.insert(0, give_dictionary.parents.return_list())
@@ -89,7 +91,7 @@ for i in answer:
     print("")
     pc += 1
 
-print("Time: ", time.time()-start)
+print "Time: ", time.time()-start
 
 
 '''
