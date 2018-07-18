@@ -15,3 +15,9 @@ But you can't throw water away, and fill up again. (This is not "Die Hard: With 
   
 ### Answer image
 ![answer](https://github.com/SauravBrahma/GameSearch/blob/images/image2.png)  
+  
+  
+## Execution Time
+The numbers below are average execution times(second) in my environment.  
+- depth : 0.0015
+- width : 0.0032  
