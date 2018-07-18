@@ -55,10 +55,3 @@ for i in answer:
     pc += 1
 
 print "Time: ", time.time()-start
-
-
-'''
-The numbers below are average execution times in my environment.
-depth : 0.0015
-width : 0.0032
-'''
