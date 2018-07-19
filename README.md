@@ -1,5 +1,5 @@
 # GameSearch
-This script solves game with depth-first search and width-first search.
+This script solves game with depth-first search and breadth-first search.
   
 # Description
 This script was made to slove a question below.  
@@ -19,5 +19,5 @@ But you can't throw water away, and fill up again. (This is not "Die Hard: With 
   
 ## Execution Time
 The numbers below are average execution times(second) in my environment.  
-- depth : 0.0015
-- width : 0.0032  
+- depth   : 0.0015
+- breadth : 0.0032  

@@ -43,7 +43,7 @@ while len(OPEN):
             if flag is False: for_open.append(new_obj)
 
     OPEN = for_open + OPEN          # depth-first search
-    #OPEN += for_open                # width-first search
+    #OPEN += for_open                # breadth-first search
 
 else: print("[-] Couldn't find paths which includes Goal.")
 
